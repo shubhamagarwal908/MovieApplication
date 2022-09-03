@@ -1,0 +1,13 @@
+.header{
+    background-color:  #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+}
+
+.logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: mymove 8s infinite;
+    animation-timing-function: linear;
+}
