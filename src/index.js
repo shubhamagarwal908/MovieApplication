@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './common/header/Header';
+// import Header from './common/header/Header';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './screens/home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <Header/>
+    <Home/>
   </div>
 );
 
